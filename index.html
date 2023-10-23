@@ -14,15 +14,15 @@
     <header class="text-uppercase h1 mt-3 text-white">Todo-list</header>
     <main id="text-input">
         <form class="d-flex mb-5 justify-content-center">
-            <input type="text" placeholder="Digite aqui" class="w-50 p-2 font-monospace">
-            <button class="btn btn-success rounded-0"><i class="bi bi-plus-lg"></i></button>
+            <input id="inputTask" type="text" placeholder="Digite aqui" class="w-50 fs-5 p-2 font-monospace">
+            <button id="addTask" class="btn btn-success rounded-0"><i class="bi bi-plus-lg"></i></button>
         </form>
         <section id="todo-list">
-            <ul class="p-0">
-                <li class="d-flex justify-content-center align-items-center">
-                    <div class="fs-5 align-self-center">asdfasdfsd</div>
-                    <button class="check-btn btn btn-success"><i class="bi bi-check-lg"></i></button>
-                    <button class="close-btn btn btn-danger"><i class="bi bi-trash"></i></button>
+            <ul class="p-0 taskUl">
+                <li class="d-flex justify-content-center">
+                    <div class="fs-5 align-items-center d-flex p-2">asdfasdfsd</div>
+                    <button class="check-btn btn btn-success rounded-0"><i class="bi bi-check-lg"></i></button>
+                    <button class="close-btn btn btn-danger rounded-0"><i class="bi bi-trash"></i></button>
                 </li>
             </ul>
         </section>
